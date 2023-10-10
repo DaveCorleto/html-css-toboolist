@@ -1,4 +1,4 @@
-
+/* Regole generali di stile  */
 * {
     margin: 0;
 box-sizing: border-box;
@@ -8,7 +8,26 @@ body {
 background-color: aliceblue;
 }
 
- /* * {
-    margin: 0;
-    box-sizing:border-box;
-} */
+/* Regole di stile sezione Header */
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    position: relative;
+}
+
+#logo {
+    width: 100px;
+}
+h1 {
+    display: inline-block;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 100px;
+    position: absolute;
+    float: left;
+    margin-left: 10px;
+}
+
+
