@@ -4,6 +4,8 @@
 box-sizing: border-box;
 }
 
+:root {font-family: Arial, Helvetica, sans-serif;}
+
 body {
 background-color: aliceblue;
 }
@@ -47,12 +49,15 @@ header, .main-container {
 }
 
 .nav-button, .button-rounded {
-    padding: 8px;
+    padding: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     line-height: 80px;
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 1px;
     color: white;
     font-weight: bold;
+    font-size: 13px;
 }
 .button-rounded {
     border-radius: 15px;
@@ -87,20 +92,32 @@ header, .main-container {
     background-color: fuchsia;
 }
 
+.green {
+    background-color: green;
+}
+
 /* Sezione di stile dei titoli secondari  */
 
 .secondary-title {
     font-size: 35px;
     font-weight: bolder;
     margin-top: 40px;
+    margin-bottom: 20px;
 
 }
 
-.rounded {
+.rounded, .rounded-red {
     display: inline-block;
-    border: 1px solid black;
     padding: 0.6%;
     border-radius: 50%;
+    font-size: 12px;
+}
+.rounded {
+    border: 1px solid black;
+}
+
+.rounded-red {
+    border: 3px solid red;
 }
 
 
